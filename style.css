@@ -1,0 +1,160 @@
+* {
+	font-family: 'Indie Flower';
+}
+
+body {
+	background: url("img/background1.jpg") no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	bottom: 50px;
+	padding: 0;
+	margin: 0;
+    background-color: #d3d3d3; 
+    border-bottom: thin solid #808080;
+    z-index: 1;
+}
+
+h1 {
+	font-size: 300%;
+	text-align: left;
+	color: black;
+}
+
+#daytitle {
+	text-align: center;
+}
+
+#week1 {
+	text-align: center;
+	font-size: 500%;
+}
+
+.day1 {
+	position: relative;
+	left: 10%;
+	width: 25%;
+	height: auto;
+	background-color: white;
+	text-align: center;	
+}
+
+.day2 {
+	position: relative;
+	left: 10%;
+	width: 25%;
+	height: auto;
+	background-color: white;
+	text-align: center;	
+}
+
+.day3 {
+	position: relative;
+	left: 10%;
+	width: 25%;
+	height: auto;
+	background-color: white;
+	text-align: center;	
+}
+
+.day4 {
+	position: relative;
+	top: 100px;
+	left: 20%;
+	width: 25%;
+	height: auto;
+	background-color: white;
+	text-align: center;	
+}
+
+.day5 {
+	position: relative;
+	top: 100px;
+	left: 20%;
+	width: 25%;
+	height: auto;
+	background-color: white;
+	text-align: center;	
+}
+
+section div {
+	font-weight: bold;
+	color: black;
+	display: inline-block;
+}
+
+
+
+#logo {
+	position: absolute;
+	top: 5px;
+	left: 40%;
+	z-index: 2;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#identification li {
+	position: relative;
+	display: inline;
+	float: right;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#about li {
+	position: relative;
+	display: inline;
+	float: left;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+a {
+	color: #00bfff;
+	text-decoration: none;
+}
+
+footer {
+	position: relative;
+	top: 300px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background: url("img/self.jpg") no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: left;
+	font-weight: bold;
+}
+
+h3 {
+	position: relative;
+	text-align: center;
+}
+
+h5 {
+	position: relative;
+	color: black;
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+	top: 10px;
+}
