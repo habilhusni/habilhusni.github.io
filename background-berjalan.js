@@ -2,6 +2,7 @@ var body = document.body;
 
 
 body.style.background = 'url("img2/valley-wide700.jpg") repeat-x center';
+body.style.backgroundSize = 'cover';
 
 
 var img = document.createElement('img');
