@@ -36,6 +36,16 @@ h1 {
 #week1 {
 	text-align: center;
 	font-size: 500%;
+	margin-bottom: 20px;
+	color: Tomato;
+}
+
+#week2, #week3, #week4, #week5, #week6 {
+	text-align: center;
+	font-size: 500%;
+	margin-top: 150px;
+	margin-bottom: 20px;
+	color: Tomato;
 }
 
 .day1 {
