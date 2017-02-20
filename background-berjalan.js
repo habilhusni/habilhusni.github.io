@@ -40,22 +40,22 @@ nextBut.setAttribute('id', 'nextButton');
 div.appendChild(nextBut);
 var nextButton = document.getElementById('nextButton');
 nextButton.style.position ='absolute';
-nextButton.style.left = '80px';
-nextButton.style.top = '80px';
-nextButton.style.width = '50px';
-nextButton.style.height = '20px';
+nextButton.style.left = '40%';
+nextButton.style.top = '55%';
+nextButton.style.width = '30%';
+nextButton.style.height = '15%';
 
 var soal1 = document.getElementById('soal1');
 soal1.style.position ='absolute';
-soal1.style.left = '20px';
-soal1.style.top = '-20px';
+soal1.style.left = '13%';
+soal1.style.top = '-19%';
 
 var rapAsk = document.getElementById('rapAsk');
-rapAsk.style.width = '200px';
-rapAsk.style.height = '142px';
+rapAsk.style.width = '15%';
+rapAsk.style.height = '22%';
 rapAsk.style.position = 'absolute';
-rapAsk.style.top = '80px';
-rapAsk.style.left = '720px';
+rapAsk.style.top = '8%';
+rapAsk.style.left = '55%';
 rapAsk.style.backgroundColor = 'white';
 rapAsk.style.background = 'url("img2/askBoxEdit.png") no-repeat center';
 
@@ -76,23 +76,23 @@ nextBut2.setAttribute('id', 'nextButton2');
 div.appendChild(nextBut2);
 var nextButton2 = document.getElementById('nextButton2');
 nextButton2.style.position ='absolute';
-nextButton2.style.left = '10px';
-nextButton2.style.top = '350px';
-nextButton2.style.width = '50px';
-nextButton2.style.height = '20px';
+nextButton2.style.left = '1%';
+nextButton2.style.top = '255%';
+nextButton2.style.width = '30%';
+nextButton2.style.height = '15%';
 nextButton2.style.zIndex = '4';
 
 var jawab1 = document.getElementById('jawab1');
 jawab1.style.position ='absolute';
-jawab1.style.left = '20px';
-jawab1.style.top = '-20px';
+jawab1.style.left = '11%';
+jawab1.style.top = '-17%';
 
 var flynnAns = document.getElementById('flynnAns');
-flynnAns.style.width = '200px';
-flynnAns.style.height = '142px';
+flynnAns.style.width = '15%';
+flynnAns.style.height = '22%';
 flynnAns.style.position = 'absolute';
-flynnAns.style.top = '350px';
-flynnAns.style.left = '650px';
+flynnAns.style.top = '53%';
+flynnAns.style.left = '50%';
 flynnAns.style.backgroundColor = 'white';
 flynnAns.style.background = 'url("img2/askBoxEdit.png") no-repeat center';
 
@@ -109,27 +109,27 @@ char2.src = "img2/hairRapunzel.png";
 char3.src = "img2/flynnRyderEdit.png";
 
 
-char2.style.width = '45px';
-char2.style.position = 'relative';
-char2.style.left = '581px';
-char2.style.top = '-310px';
+char2.style.width = '4%';
+char2.style.position = 'absolute';
+char2.style.left = '68.3%';
+char2.style.top = '42.5%';
 
 
-char1.style.width = '100px';
-char1.style.position = 'relative';
-char1.style.left = '680px';
-char1.style.top = '-310px';
+char1.style.width = '10%';
+char1.style.position = 'absolute';
+char1.style.left = '68%';
+char1.style.top = '28%';
 
 
-char3.style.width = '100px';
-char3.style.position = 'relative';
-char3.style.left = '440px';
-char3.style.top = '0px';
+char3.style.width = '10%';
+char3.style.position = 'absolute';
+char3.style.left = '62%';
+char3.style.top = '70%';
 
 
-image.style.position = 'relative';
-image.style.left = '70%';
-image.style.top = '24px';
+image.style.position = 'absolute';
+image.style.left = '75%';
+image.style.top = '5%';
 image.style.height = '95%';
 
 
@@ -139,9 +139,9 @@ button.appendChild(jalan);
 button.setAttribute('id', 'move');
 body.appendChild(button);
 var pencetan = document.getElementById('move');
-pencetan.style.position = 'relative';
-pencetan.style.left = '270px';
-pencetan.style.top = '-100px';
+pencetan.style.position = 'absolute';
+pencetan.style.left = '55%';
+pencetan.style.top = '80%';
 pencetan.style.visibility = 'hidden';
 
 var inc = 1;
