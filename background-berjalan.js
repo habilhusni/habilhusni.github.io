@@ -48,8 +48,8 @@ nextButton.style.height = '15%';
 
 var soal1 = document.getElementById('soal1');
 soal1.style.position ='absolute';
-soal1.style.left = '13%';
-soal1.style.top = '-19%';
+soal1.style.left = '11%';
+soal1.style.top = '-7%';
 
 var rapAsk = document.getElementById('rapAsk');
 rapAsk.style.width = '15%';
@@ -85,7 +85,7 @@ nextButton2.style.zIndex = '4';
 
 var jawab1 = document.getElementById('jawab1');
 jawab1.style.position ='absolute';
-jawab1.style.left = '11%';
+jawab1.style.left = '12%';
 jawab1.style.top = '-17%';
 
 var flynnAns = document.getElementById('flynnAns');
