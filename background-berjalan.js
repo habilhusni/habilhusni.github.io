@@ -113,7 +113,7 @@ char3.src = "img2/flynnRyderEdit.png";
 char2.style.width = '4%';
 char2.style.position = 'absolute';
 char2.style.left = '68.3%';
-char2.style.top = '42.5%';
+char2.style.top = '41%';
 
 
 char1.style.width = '10%';
@@ -156,7 +156,7 @@ button.addEventListener('click', function() {
 	soal1.innerHTML = '<h4>Sekarang kamu bisa naik kesini!</h4>';
 	jawab1.innerHTML = '<h4>Terima kasih Rapunzel!</h4>';
 	char2.style.webkitTransform = 'scaleY(6)';
-  }	
+  }
 });
 
 
@@ -164,12 +164,12 @@ button.addEventListener('click', function() {
 nextButton2.style.visibility = 'hidden';
 soal1.innerHTML = '<h4>Hi Flynn!</h4>';
 nextButton.addEventListener('click', function() {
-	jawab1.innerHTML = '<h4>Hi Rapunzel, bagaimana caranya saya dapat pergi kesana?</h4>';
+	jawab1.innerHTML = '<h4>Hi Rapunzel, disana ada apa?</h4>';
 	nextButton.style.visibility = 'hidden';
 	nextButton2.style.visibility = 'visible';
 });
 nextButton2.addEventListener('click', function() {
-	soal1.innerHTML = '<h4>Tekan tombol MOVE di sebelahmu!</h4>';
+	soal1.innerHTML = '<h4>Tekan aja tombol MOVE di sebelahmu!</h4>';
 	nextButton2.style.visibility = 'hidden';
     pencetan.style.visibility = 'visible';
 });
